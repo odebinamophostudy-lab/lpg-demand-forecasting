@@ -75,8 +75,13 @@ docs/_build/
 .pybuilder/
 target/
 
-# Jupyter Notebook
-.ipynb_checkpoints
+# Jupyter / Colab checkpoints and output
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Colab local runtime artifacts
+.local/
+.config/
 
 # IPython
 profile_default/
